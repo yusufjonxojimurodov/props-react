@@ -5,7 +5,9 @@ import Jasur from '../src/components/Jasur'
 import Aziz from '../src/components/Aziz'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-   <Jasur />
+ <div className='max-w-[100%] w-[85%] mx-auto'>
+    <Jasur />
    <Aziz />
+ </div>
   </StrictMode>,
 )
