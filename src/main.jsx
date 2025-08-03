@@ -1,10 +1,11 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
-
+import "../src/assets/style/index.css"
+import Jasur from '../src/components/Jasur'
+import Aziz from '../src/components/Aziz'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+   <Jasur />
+   <Aziz />
   </StrictMode>,
 )
